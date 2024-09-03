@@ -69,17 +69,17 @@ _ X _ _ G
 ```
 
 ```json
-{ "solution" = "No solution found for the maze." }
+{ "solution": "No solution found for the maze." }
 ```
 
 #### Response Examples (Error)
 
 ```json
-{ "error" = "Maze must contain one start point (S) and one goal point (G)." }
+{ "error": "Maze must contain one start point (S) and one goal point (G)." }
 ```
 
 ```json
-{ "error" = "Invalid maze grid." }
+{ "error": "Invalid maze grid." }
 ```
 
 
@@ -90,7 +90,7 @@ _ X _ _ G
 ``` 
 
 ```json
-{ "error" = "Maze must have the same number of columns in each row." }
+{ "error": "Maze must have the same number of columns in each row." }
 ```
 
 ### List Submitted Mazes
