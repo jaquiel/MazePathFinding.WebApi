@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MazePathFinding.WebApi</name>
+    </assembly>
+    <members>
+        <member name="M:MazePathFinding.WebApi.Controllers.MazesController.SubmitMaze(MazePathFinding.WebApi.Models.MazeRequest)">
+             <summary>
+             Submits a maze to be solved.
+             </summary>
+             <param name="mazeRequest"></param>
+             <returns></returns>
+             <remarks>
+             Sample request:
+            
+                 POST /api/mazes
+                 {
+                     "grid": [
+                         ["S", "_", "_", "_", "_"],
+                         ["X", "X", "X", "X", "_"],
+                         ["_", "_", "_", "X", "_"],
+                         ["_", "X", "_", "X", "_"],
+                         ["_", "X", "_", "_", "G"]
+                     ]
+                 }
+            
+             </remarks>
+        </member>
+        <member name="M:MazePathFinding.WebApi.Controllers.MazesController.GetMazes">
+            <summary>
+            Gets all mazes submitted.
+            </summary>
+            <returns></returns>
+            <remarks>
+            Sample request:
+            
+                GET /api/mazes { } 
+            
+            </remarks>
+        </member>
+    </members>
+</doc>
